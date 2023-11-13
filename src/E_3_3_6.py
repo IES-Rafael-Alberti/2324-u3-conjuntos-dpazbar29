@@ -1,4 +1,4 @@
-#3.3.2
+#3.3.6
 
 def consonantes(vocales,abecedario):
     resultado = abecedario - vocales

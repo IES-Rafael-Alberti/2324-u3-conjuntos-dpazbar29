@@ -9,9 +9,7 @@ def nombresRepetidos(nombres_primaria,nombres_secundaria):
     resultado = nombres_primaria & nombres_secundaria
     if resultado == set():
         resultado = "No hay nombres repetidos en ambos grados"
-    else:
-        strResultado = ",".join(resultado)
-    return strResultado
+    return resultado
 
 def PrimariaNoRepetidoSecudanria(nombres_primaria,nombres_secundaria):
     resultado = nombres_primaria - nombres_secundaria

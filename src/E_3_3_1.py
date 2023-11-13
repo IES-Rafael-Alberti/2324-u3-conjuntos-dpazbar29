@@ -14,7 +14,7 @@ def obtenerDomiciliosFacturas(compras):
     for domicilios in clientes_domicilios.values():
         domicilios_facturas.update(domicilios)
 
-    return list(domicilios_facturas)
+    return sorted(list(domicilios_facturas))
 
 if __name__ == "__main__":
 
